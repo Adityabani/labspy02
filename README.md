@@ -27,7 +27,8 @@
 # TUGAS PRAKTIKUM 2
 
 ## SOAL
-![gambar1](gambar/1_soal.PNG)
+
+![gambar1](Gambar/gbr6.PNG)
 
 ## JAWABAN
   - Buka text editor, seperti PyCharm, Visual Studio, Atom, dan lain-lain.
@@ -48,20 +49,15 @@
         12      print('Nilai c paling besar, yaitu', c)
         13
 
-![gambar2](gambar/2_kode.PNG)
+![gambar2](Gambar/gbr1.PNG)
 
   - Simpan dengan nama `labspy02.py`, Kemudian jalankan program tersebut. Maka akan menampilkan output sebagai berikut
 
-
-
-    ![gambar3](gambar/3_output.PNG)
-
-
+![gambar3](Gambar/gbr2.PNG)
 
   - Flowchart dari program tersebut
 
-
-    ![gambar4](gambar/4_flowchart.PNG)
+  ![gambar4](Gambar/gbr7.PNG)
 
 ## PENJELASAN
   - Pada baris ke-3, menginstruksikan kita untuk memasukkan nilai **a**, kemudian akan disimpan dalam variabel `a` dalam bentuk integer.
@@ -72,29 +68,7 @@
 
   - Di baris ke-7, ada klausa `if` untuk pilihan kondisi pertama, dan `and` merupakan operasi logika, hasilnya adalah _True_ jika kedua operatornya bernilai benar. Misalnya
 
-    - `a=5`,`b=1`,`c=3`, _"Jika nilai `a` lebih besar dari `b`"_ **(ini benar)**, dan _"Jika nilai `a` lebih besar dari `c`"_ **(ini benar)**. Maka program berlanjut ke baris-8, _cetak nilai `a` ke layar_.
+    - `a=4`,`b=10`,`c=5`, _"Jika nilai `a` lebih besar dari `b`"_ **(ini benar)**, dan _"Jika nilai `a` lebih besar dari `c`"_ **(ini benar)**. Maka program berlanjut ke baris-8, _cetak nilai `a` ke layar_.
 
 
-        ![gambar5](gambar/3_output.PNG)
-
-
-  - Pada baris ke-9, ada klausa `elif` untuk pemilihan kondisi alternatif apabila `if` tidak terpenuhi. dan `and` merupakan operasi logika, hasilnya adalah _True_ jika kedua operatornya bernilai benar. Misalnya
-
-    - `a=7`,`b=8`,`c=4`, _"Jika nilai `a` lebih besar dari `b`"_ **(ini salah)**, dan _"Jika nilai `a` lebih besar dari `c`"_ **(ini benar)**. Maka program loncat ke baris-9,
-
-    -  _"Jika nilai `b` lebih besar dari `a`"_ **(ini benar)**, dan _"Jika nilai `b` lebih besar dari `c`"_ **(ini benar)**. Maka program berlanjut ke baris-10, _cetak nilai `b` ke layar_.
-
-
-        ![gambar6](gambar/3-1_output.PNG)
-
-
-  - Pada baris ke-10, ada klausa `else` sebagai jalan akhir apabila klausa `if`, dan `elif` tidak terpenuhi. Misalnya
-
-    - `a=2`,`b=4`,`c=7`, _"Jika nilai `a` lebih besar dari `b`"_ **(ini salah)**, dan _"Jika nilai `a` lebih besar dari `c`"_ **(ini salah)**. Maka program loncat ke baris-9,
-
-    -  _"Jika nilai `b` lebih besar dari `a`"_ **(ini benar)**, dan _"Jika nilai `b` lebih besar dari `c`"_ **(ini salah)**. Maka program loncat ke baris-11, kemudian 12
-
-    - _cetak nilai `c` ke layar_.
-
-
-        ![gambar7](gambar/3-2_output.PNG)
+  ![gambar3](Gambar/gbr2.PNG)
